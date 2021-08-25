@@ -47,15 +47,15 @@
 
 6. **Network Topology**  
 
-   * ***Bus Topology*** - <img src="https://github.com/44aayush/Placement_Q-A/assets/bus_topo.png"/>
+   * ***Bus Topology*** - <img src="https://github.com/44aayush/Placement_Q-A/blob/main/assets/bus_topo.PNG"/>
 
-   * ***Star Topology*** - <img src="https://github.com/44aayush/Placement_Q-A/assets/star_topo.png" />
+   * ***Star Topology*** - <img src="https://github.com/44aayush/Placement_Q-A/blob/main/assets/star_topo.PNG" />
 
-   * ***Ring Topology*** - <img src="https://github.com/44aayush/Placement_Q-A/assets/ring_topo.png" />
+   * ***Ring Topology*** - <img src="https://github.com/44aayush/Placement_Q-A/blob/main/assets/ring_topo.PNG" />
 
-   * ***Mesh Topology*** - <img src="https://github.com/44aayush/Placement_Q-A/assets/mesh_topo.png" />
+   * ***Mesh Topology*** - <img src="https://github.com/44aayush/Placement_Q-A/blob/main/assets/mesh_topo.PNG" />
 
-   * ***Tree Topology*** - <img src="https://github.com/44aayush/Placement_Q-A/assets/tree_topo.png" />
+   * ***Tree Topology*** - <img src="https://github.com/44aayush/Placement_Q-A/blob/main/assets/tree_topo.PNG" />
 
    * ***Hybrid Topology***
 
