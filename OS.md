@@ -46,9 +46,11 @@
 
     -> With dynamic loading, a routine is not loaded until it is called. This method is especially useful when large amounts of code are needed in order to handle infrequently occurring cases such as error routines.
 
-12.  **What are overlays?**
+12. **What are overlays?**
 
     -> The concept of overlays is that whenever a process is running it will not use the complete program at the same time, it will use only some part of it.
+
+    The concept of overlays is that whenever a process is running it will not use the complete program at the same time, it will use only some part of it.
 
 13. **What is caching?**
 
