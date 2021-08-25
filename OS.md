@@ -50,7 +50,7 @@
 
     -> The concept of overlays is that whenever a process is running it will not use the complete program at the same time, it will use only some part of it.
 
-    The concept of overlays is that whenever a process is running it will not use the complete program at the same time, it will use only some part of it.
+    -> The concept of overlays is that whenever a process is running it will not use the complete program at the same time, it will use only some part of it.
 
 13. **What is caching?**
 
