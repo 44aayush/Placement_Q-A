@@ -47,15 +47,15 @@
 
 6. **Network Topology**  
 
-   * ***Bus Topology*** - <img src="https://github.com/44aayush/Placement_Q-A/blob/main/assets/bus_topo.PNG"/>
+   * ***Bus Topology*** - <img style="vertical-align:middle" src="https://github.com/44aayush/Placement_Q-A/blob/main/assets/bus_topo.PNG"/>
 
-   * ***Star Topology*** - <img src="https://github.com/44aayush/Placement_Q-A/blob/main/assets/star_topo.PNG" />
+   * ***Star Topology*** - <img style="vertical-align:middle" src="https://github.com/44aayush/Placement_Q-A/blob/main/assets/star_topo.PNG" />
 
-   * ***Ring Topology*** - <img src="https://github.com/44aayush/Placement_Q-A/blob/main/assets/ring_topo.PNG" />
+   * ***Ring Topology*** - <img style="vertical-align:middle" src="https://github.com/44aayush/Placement_Q-A/blob/main/assets/ring_topo.PNG" />
 
-   * ***Mesh Topology*** - <img src="https://github.com/44aayush/Placement_Q-A/blob/main/assets/mesh_topo.PNG" />
+   * ***Mesh Topology*** - <img style="vertical-align:middle" src="https://github.com/44aayush/Placement_Q-A/blob/main/assets/mesh_topo.PNG" />
 
-   * ***Tree Topology*** - <img src="https://github.com/44aayush/Placement_Q-A/blob/main/assets/tree_topo.PNG" />
+   * ***Tree Topology*** - <img style="vertical-align:middle" src="https://github.com/44aayush/Placement_Q-A/blob/main/assets/tree_topo.PNG" />
 
    * ***Hybrid Topology***
 
