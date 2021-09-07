@@ -7,19 +7,15 @@
 <br>
 
 1. <h3 style="color:yellow">DOCKER</h3>
-    ```
-    Docker is a containerization platform i.e., used for building, deploying and running applications
-    Can be run on any infrastructure
-    Conatiner/Docker Hub for sharing containers of the application
-    ```
+    Docker is a containerization platform i.e., used for building, deploying and running applications<br>
+    Can be run on any infrastructure<br>
+    Conatiner/Docker Hub for sharing containers of the application<br>
 <br>
 
 2. <h3 style="color:yellow">CONTAINER</h3>
-    ```
-    A Container is a standard unit of software that holds the code and all it's dependencies, in order to make the application run smoothly, quickly and reliably between different computing platforms.
-    Main aim is to get rid of infrastructure dependency while deployment and running of application.
-    Technically, it is runnable instance of docker image
-    ```
+    A Container is a standard unit of software that holds the code and all it's dependencies, in order to make the application run smoothly, quickly and reliably between different computing platforms <br>
+    Main aim is to get rid of infrastructure dependency while deployment and running of application<br>
+    Technically, it is runnable instance of docker image<br>
 <br>    
 
 3. <h3 style="color:yellow">DOCKER IMAGES</h3>
