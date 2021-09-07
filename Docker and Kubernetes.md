@@ -1,15 +1,21 @@
 <h2 style="color:yellow">WHY DEVOPS?</h2>
 <br>
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
+<h1 align="center">DOCKER</h1>
+<br>
 
 1. <h3 style="color:yellow">DOCKER</h3>
     * Docker is a containerization platform i.e., used for building, deploying and running applications.
+    * Can be run on any infrastructure
+    * Conatiner/Docker Hub for sharing containers of the application
 <br>
 
 2. <h3 style="color:yellow">CONTAINER</h3>
     * A Container is a standard unit of software that holds the code and all it's dependencies, in order to make the application run smoothly, quickly and reliably between different computing platforms.
     * Main aim is to get rid of infrastructure dependency while deployment and running of application.
-    * Technically, it is run-time instance of docker image. 
+    * Technically, it is runnable instance of docker image. 
 <br>    
 
 3. <h3 style="color:yellow">DOCKER IMAGES</h3>
@@ -39,30 +45,53 @@
     * PID, Mount, User, Network, IPC
 <br>
 
-8. <h3 style="color:yellow">DOCKER IMAGE REGISTRY</h3>
-    * Area where docker images (private/public) are stored
-    * Docker Hub - public cloud-based DIR for storing public images
+8. <h3 style="color:yellow">COMPONENTS</h3>
+    * **Host** - Holds the Docker Daemon(link with registry), Images(metadata), and Containers(application)
+    * **Clinet** - Runs operations to set up communication with the Docker Host
+    * **Registry** - Used to store Docker images
 <br>
 
-9. <h3 style="color:yellow"></h3>
-
+9. <h3 style="color:yellow">DOCKER SWARM</h3>
+    * Native tool used for clustering and scheduling of Docker containers
 <br>
-<h3 style="color:yellow"></h3>
 
+10. <h3 style="color:yellow">COMMANDS</h3>
+    * **build** : to build an image file for docker
+    * **create** : for creation of new container
+    * **kill** : to kill a conatiner
+    * **dockerd** : for launching docker daemon
+    * **commit** : for creating new image from the container changes
+    * **push** : pushes repository or image to a registry
+    * **run** : runs a command in a new container
+    * **pull** : pulls repository or image from a registry
+    * **start** : starts one or more containers
+    * **stop** : stops running containers
+    * **search** : searches for an image in a docker hub
 <br>
-<h3 style="color:yellow"></h3>
 
+11. <h3 style="color:yellow">WORKFLOW</h3>
+    * Since the Dockerfile is the source code of the image, everything starts with it
+    * Once it is created, the Dockerfile is used to build compiled version of the image of the container
+    * This image is then redistributed using the registry, which is like a repository of images.
+    * Further, the image can be used to run containers. A container, while it is running, is very similar to a VM without the hypervisor.
 <br>
-<h3 style="color:yellow"></h3>
 
+12. <h3 style="color:yellow">VIEW LOGS OF DOCKER</h3>
+    * **journalctl -u docker;**
 <br>
-<h3 style="color:yellow"></h3>
 
+13. <h3 style="color:yellow">WHY STATELESS APPLICATION?</h3>
+    * We can create one container from our application and take out the app's configurable state parameters
+    * Once it is one, we can run the same container with different production parameters and other environments
+    * We can reuse the same image in distinct scenarios and also easy to Scale 
 <br>
-<h3 style="color:yellow"></h3>
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
+<h1 align="center">KUBERNETES</h1>
 <br>
-<h3 style="color:yellow"></h3>
+
+1. <h3 style="color:yellow"></h3>
 
 <br>
 <h3 style="color:yellow"></h3>
