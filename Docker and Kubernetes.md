@@ -19,12 +19,12 @@
 <br>    
 
 3. <h3 style="color:yellow">DOCKER IMAGES</h3>
-    * Executable packages (code and dependencies, software packages etc...)
-    * Can be deployed to any docker environment and the container can be spun to run the application
+    Executable packages (code and dependencies, software packages etc...)<br>
+    Can be deployed to any docker environment and the container can be spun to run the application<br>
 <br>
 
 4. <h3 style="color:yellow">DOCKERFILE</h3>
-    * Text file that has all the commands which need to be run for building a given image
+    Text file that has all the commands which need to be run for building a given image
 <br>
 
 5. <h3 style="color:yellow">HYPERVISOR</h3>
@@ -40,15 +40,15 @@
 <br>
 
 7. <h3 style="color:yellow">NAMESPACE</h3>
-    * Namespace is linux feature that ensures OS resource partition in a mutual exclusive manner
-    * In Docker, it ensure containers are portable and don't affect underlying host
-    * PID, Mount, User, Network, IPC
+    Namespace is linux feature that ensures OS resource partition in a mutual exclusive manner<br>
+    In Docker, it ensure containers are portable and don't affect underlying host<br>
+    PID, Mount, User, Network, IPC<br>
 <br>
 
 8. <h3 style="color:yellow">COMPONENTS</h3>
-    * **Host** - Holds the Docker Daemon(link with registry), Images(metadata), and Containers(application)
-    * **Clinet** - Runs operations to set up communication with the Docker Host
-    * **Registry** - Used to store Docker images
+    **Host** - Holds the Docker Daemon(link with registry), Images(metadata), and Containers(application)<br>
+    **Clinet** - Runs operations to set up communication with the Docker Host<br>
+    **Registry** - Used to store Docker images<br>
 <br>
 
 9. <h3 style="color:yellow">DOCKER SWARM</h3>
