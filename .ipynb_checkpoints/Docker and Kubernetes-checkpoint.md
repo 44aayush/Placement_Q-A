@@ -28,15 +28,15 @@
 <br>
 
 5. <h3 style="color:yellow">HYPERVISOR</h3>
-    * Virtual Machine Monitor
-    * Software that makes the virtualization happen by allocating resources of host system to each of environment installed
-    * * Native - Bare-Metal Hypervisor, runs directly on host system
-    * * Hosted - Use the lying host system for resources
+    Virtual Machine Monitor<br>
+    Software that makes the virtualization happen by allocating resources of host system to each of environment installed<br>
+        Native - Bare-Metal Hypervisor, runs directly on host system<br>
+        Hosted - Use the lying host system for resources<br>
 <br>
 
 6. <h3 style="color:yellow">DOCKER COMPOSE</h3>
-    * YAML (JSON) file consisting of all the details regarding various service, networks and volumes to set up Docker-based application
-    * Used for creating multiple containers, host them and establish communication between them
+    YAML (JSON) file consisting of all the details regarding various service, networks and volumes to set up Docker-based application<br>
+    Used for creating multiple containers, host them and establish communication between them<br>
 <br>
 
 7. <h3 style="color:yellow">NAMESPACE</h3>
@@ -46,44 +46,44 @@
 <br>
 
 8. <h3 style="color:yellow">COMPONENTS</h3>
-    **Host** - Holds the Docker Daemon(link with registry), Images(metadata), and Containers(application)<br>
-    **Clinet** - Runs operations to set up communication with the Docker Host<br>
-    **Registry** - Used to store Docker images<br>
+    Host : Holds the Docker Daemon(link with registry), Images(metadata), and Containers(application)<br>
+    Clinet : Runs operations to set up communication with the Docker Host<br>
+    Registry : Used to store Docker images<br>
 <br>
 
 9. <h3 style="color:yellow">DOCKER SWARM</h3>
-    * Native tool used for clustering and scheduling of Docker containers
+    Native tool used for clustering and scheduling of Docker containers
 <br>
 
 10. <h3 style="color:yellow">COMMANDS</h3>
-    * **build** : to build an image file for docker
-    * **create** : for creation of new container
-    * **kill** : to kill a conatiner
-    * **dockerd** : for launching docker daemon
-    * **commit** : for creating new image from the container changes
-    * **push** : pushes repository or image to a registry
-    * **run** : runs a command in a new container
-    * **pull** : pulls repository or image from a registry
-    * **start** : starts one or more containers
-    * **stop** : stops running containers
-    * **search** : searches for an image in a docker hub
+    build : to build an image file for docker<br>
+    create : for creation of new container<br>
+    kill : to kill a conatiner<br>
+    dockerd : for launching docker daemon<br>
+    commit : for creating new image from the container changes<br>
+    push : pushes repository or image to a registry<br>
+    run : runs a command in a new container<br>
+    pull : pulls repository or image from a registry<br>
+    start : starts one or more containers<br>
+    stop : stops running containers<br>
+    search : searches for an image in a docker hub<br>
 <br>
 
 11. <h3 style="color:yellow">WORKFLOW</h3>
-    * Since the Dockerfile is the source code of the image, everything starts with it
-    * Once it is created, the Dockerfile is used to build compiled version of the image of the container
-    * This image is then redistributed using the registry, which is like a repository of images.
-    * Further, the image can be used to run containers. A container, while it is running, is very similar to a VM without the hypervisor.
+    Since the Dockerfile is the source code of the image, everything starts with i<br>
+    Once it is created, the Dockerfile is used to build compiled version of the image of the containe<br>
+    This image is then redistributed using the registry, which is like a repository of images<br>
+    Further, the image can be used to run containers. A container, while it is running, is very similar to a VM without the hypervisor<br>
 <br>
 
 12. <h3 style="color:yellow">VIEW LOGS OF DOCKER</h3>
-    * **journalctl -u docker;**
+    journalctl -u docker;
 <br>
 
 13. <h3 style="color:yellow">WHY STATELESS APPLICATION?</h3>
-    * We can create one container from our application and take out the app's configurable state parameters
-    * Once it is one, we can run the same container with different production parameters and other environments
-    * We can reuse the same image in distinct scenarios and also easy to Scale 
+    We can create one container from our application and take out the app's configurable state parameters<br>
+    Once it is one, we can run the same container with different production parameters and other environments<br>
+    We can reuse the same image in distinct scenarios and also easy to Scale<br> 
 <br>
 
 ----------------------------------------------------------------------------------------------------------------------------------------
@@ -91,13 +91,20 @@
 <h1 align="center">KUBERNETES</h1>
 <br>
 
-1. <h3 style="color:yellow"></h3>
-
+1. <h3 style="color:yellow">KUBERNETES</h3>
+    Open-Source Technology which helps in schedulig and executing application container within and across clusters
 <br>
-<h3 style="color:yellow"></h3>
 
+2. <h3 style="color:yellow">DOCKER SWARM vs K8</h3>
+    
 <br>
-<h3 style="color:yellow"></h3>
+
+3. <h3 style="color:yellow">RESOURCES</h3>
+    Master : Coordinates all the activities in the cluster (scheduling, maintaining, scaling applications)<br>
+    Nodes : Instance of an OS that serves as a worker machine in the cluster<br>
+<br>
+
+4. <h3 style="color:yellow"></h3>
 
 <br>
 <h3 style="color:yellow"></h3>
