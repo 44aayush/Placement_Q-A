@@ -5,7 +5,7 @@
     * A collection of functions and attributes, attached to a specific name, which represents abstract concepts.
     * Viewed as factory or template for generating new concepts.
     * Argument (self) refers to the object itself.
-    * ****Class Variable*** - variable shared by all instances of the class.
+    * ***Class Variable*** - variable shared by all instances of the class.
     * ***Instance Variable*** - variable defined inside a method and belong to current instance of the class.
     * * Change to class attribute affects all instances whereas for instance attribute affects only the associated instance.
    
