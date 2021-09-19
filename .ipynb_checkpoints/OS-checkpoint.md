@@ -1,25 +1,25 @@
-1. **What is a Process?**
+1. **What is a Process?**<br>
     A process is an instance of a program in execution.
 
-2. **What is a Thread?**
+2. **What is a Thread?**<br>
     A thread is a single sequence stream within a process. Because threads have some of the properties of processes, they are sometimes called lightweight processes.
 
 3. * **Thread has it's own** - program counter (PC), a register set, and a stack space.
    * **Thread shares** - code section, data section, and OS resources like open files and signals. 
 
-4. **What is Thrashing?**
+4. **What is Thrashing?**<br>
     Thrashing is a situation when the performance of a computer degrades or collapses. Thrashing occurs when a system spends more time processing page faults than executing transactions.
 
-5. **What is Belady's Anomaly?**
+5. **What is Belady's Anomaly?**<br>
     An anomaly with some page replacement policies were increasing the number of page frames results in an increase in the number of page faults. Occurs in FIFO page replacement.
 
-6. **What is Demand Paging?**
+6. **What is Demand Paging?**<br>
     The process of loading the page into memory on demand.
 
-7. **What is Kernel?**
+7. **What is Kernel?**<br>
     A kernel is the central component of an operating system that manages the operations of computers and hardware. It basically manages operations of memory and CPU time. It is a core component of an operating system. Kernel acts as a bridge between applications and data processing performed at the hardware level using inter-process communication and system calls.
 
-8. **What is a deadlock?**
+8. **What is a deadlock?**<br>
     Deadlock is a situation when two or more processes wait for each other to finish and none of them ever finish.
 
 9. **Deadlock happens due to?**
@@ -35,16 +35,16 @@
     * Deadlock detection and recovery
     * Ignore the problem altogether
 
-11. **How does dynamic loading aid in better memory space utilization?**
+11. **How does dynamic loading aid in better memory space utilization?**<br>
     With dynamic loading, a routine is not loaded until it is called. This method is especially useful when large amounts of code are needed in order to handle infrequently occurring cases such as error routines.
 
-12. **What are overlays?**
+12. **What are overlays?**<br>
     The concept of overlays is that whenever a process is running it will not use the complete program at the same time, it will use only some part of it.
 
-13. **What is caching?**
+13. **What is caching?**<br>
     The cache is a smaller and faster memory that stores copies of the data from frequently used main memory locations. 
 
-14. * **Preemptive** - the process is interrupted in the middle of execution when higher priority one comes.
+14. * **Preemptive** - the process is interrupted in the middle of execution when higher priority one comes.<br>
     * **Non-Preemptive** - the CPU is allocated to the process till it terminates or switches to waiting for state.
 
 15. * **Zombie Process** - A process that has finished the execution but still has an entry in the process table to report to its parent process is known as a zombie process
@@ -52,7 +52,7 @@
     * **Starvation** - A process does not get the resources it needs for a long time because the resources are being allocated to other processes. 
     * **Aging** - A technique to avoid starvation in a scheduling system. It works by adding an aging factor to the priority of each request.
 
-16. **What is concurrency?**
+16. **What is concurrency?**<br>
     A state in which a process exists simultaneously with another process than those it is said to be concurrent.
 
 17. **Problems related to concurrency**
@@ -63,7 +63,7 @@
     * Starvation
     * Deadlock
 
-18. **What is Buffer?**
+18. **What is Buffer?**<br>
     A buffer is a memory area that stores data being transferred between two devices or between a device and an application.
 
 19. **What are the different kinds of operations possible on Semaphores?**
