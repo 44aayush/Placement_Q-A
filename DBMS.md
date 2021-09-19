@@ -21,7 +21,10 @@
 
    An SQL Join is used to combine data from two or more tables, based on a common field between them.
 
-6. * **INNER JOIN** - 
+6. * **INNER JOIN** - Returns records that have matching values in both tables
+   * **LEFT OUTER JOIN** - Returns all records from the left table, and the matched records from the right table
+   * **RIGHT OUTER JOIN** - Returns all records from the right table, and the matched records from the left table
+   * **FULL OUTER JOIN** - Returns all records when there is a match in either left or right table
 
 7. * **UNION** - Join data from 2 or more tables with distinct rows.
    * **UNION ALL** - Does not remove the duplicate rows, it just picks all the data from the tables. 
@@ -73,13 +76,11 @@
     * **FOREIGN KEY** - An attribute that can only take the values present in one table common to the attribute present in another table.
     * **COMPOSITE KEY** - A combination of two or more columns that can uniquely identify each tuple in a table.
 
-<h1 style="color:orange; text-align:center">MONGODB</h1>
-
-1. 
-
-​      
-
-
-​      
-
-​       
+17. **PATTERN MATCHING** -
+    * The LIKE operator is used in conjunction with SQL Wildcards to fetch the required information.
+    * * % - 0 or more characters
+    * * K% - Begin wih K
+    * * %K - End with K
+    * * __K% - Third position character is K
+    * * ____ - Exactly 4 characters
+    * * __ % - Three or more characters
