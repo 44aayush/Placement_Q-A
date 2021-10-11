@@ -198,13 +198,67 @@
     | HTTP                                | 80       |
     | HTTPS                               | 443      |
 
-    
 
-    
 
-    
+19. **HUB** 
+    * Layer-1 device (Physical Layer), deals with the data in the form of bits or electrical signals.
+    * Used to connect devices on the same network only.
+    * Half-duplex mode of communication.
+    * Broadcasts the data packets, hence less securea and induces traffic on the channel due to collision.
+    * Not an intelligent device, it forwards the incoming messages to other devices without checking for error or processing it.
+        ** ***Active Hub*** - Also called Concentrator. It analyses data packets and amplify the transmission signals, if needed.
+        ** ***Passive Hub*** - Forwards the data as it is.
 
+
+
+20. **BRIDGE** 
+    * Layer-2 device, interpretes data in the form of data frames.
+    * In Physical Layer - Acts as a Repeater - regenerates the weak signals
+      In Data-Link Layer - Checks the MAC address on the data frames for transmission
+    * Also has Filtering capacity - discard faulty data frames 
+        ** ***Transparent Bridge*** - Work as transmission medium between two devices
+        ** ***Routing Bridge*** - Have Unique identity, source can send data packets through specific bridges
+        
+
+
+21. **SWITCH** 
+    * Layer-2 connecting devices, acts as a multiport bridge. Hence, provides bridging functionality with greater efficiency.
+    * Maintains a SEitch table, which has all the MAC address of the devices connected to it.
+    * Full-duplex 
+    * Intelligent device with filtering capabilities and has multiple collision domains , so it has atleast or no collision.
+        ** ***Store n Forward Switch*** - Does not forward unless data frames are errorless, RELIABLE
+        ** ***Cut-through Switch*** - Forward without any checks as soon as it starts receiving.
+        ** ***Fragment-Free Switch*** - Combination of Store n Forward and Cut-through Switch,  checks only 64bytes before forwarding.
+        ** ***Adaptive Switch*** - Choose anyone of the above switch as per needs.
     
+   
+
+22. **ROUTER**
+    * Layer-3 network connecting device, interpretes data in the form of data packets.
+    * Gateway of a network
+        ** ***Static Routing*** - The path of the data is manually set.
+        ** ***Dynamic Routing*** - Various algorithms are used to find the best and shortest path for transmission.
+
+
+
+24. **ROUTING PROTOCOLS
+    * Distance Vector
+         - Selects best path on the basis of hop counts to reach the destination network
+         - RIP => Routing Information Protocol
+
+    * Link State / Shortest Path First
+         - Knows about Internetworks than Distance vector 
+         - - Neighbor Table => information about neighbor of the routers
+         - - Topology Table => best and backup route to dest
+         - - Routing Table => best route to dest
+         - OSPF => Open Shortest Path First
+
+    * Advanced Distance Vector
+         - Hybrid protocol
+         - EIGRP => Enhanced Interior Gateway Routing Protocol
+         - - Acts as a link state routing protocol as it uses the concept of Hello protocol for neighbor discovery and forming adjacency
+         - - Acts as distance vector routing protocol as it learned routes from directly connected neighbors
+
 
     
 
